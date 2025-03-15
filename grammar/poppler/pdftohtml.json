@@ -1,0 +1,101 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-zoom",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-wbt",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },{
+            "opt": "-f",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-l",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-q",
+            "type": "bool"
+        },
+        {
+            "opt": "-p",
+            "type": "bool"
+        },
+        {
+            "opt": "-c",
+            "type": "bool"
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        },
+        {
+            "opt": "-dataurls",
+            "type": "bool"
+        },
+        {
+            "opt": "-i",
+            "type": "bool"
+        },
+        {
+            "opt": "-noframes",
+            "type": "bool"
+        },
+        {
+            "opt": "-stdout",
+            "type": "bool"
+        },
+        {
+            "opt": "-xml",
+            "type": "bool"
+        },
+        {
+            "opt": "-noroundcoord",
+            "type": "bool"
+        },
+        {
+            "opt": "-hidden",
+            "type": "bool"
+        },
+        {
+            "opt": "-nomerge",
+            "type": "bool"
+        },
+        {
+            "opt": "-nodrm",
+            "type": "bool"
+        },
+        {
+            "opt": "-fontfullname",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

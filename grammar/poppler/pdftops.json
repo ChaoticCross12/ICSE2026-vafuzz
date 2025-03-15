@@ -1,0 +1,168 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 3,
+    "options": [
+  {
+    "opt": "-f",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-l",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-level1",
+    "type": "bool"
+  },
+  {
+    "opt": "-level1sep",
+    "type": "bool"
+  },
+  {
+    "opt": "-level2",
+    "type": "bool"
+  },
+  {
+    "opt": "-level2sep",
+    "type": "bool"
+  },
+  {
+    "opt": "-level3",
+    "type": "bool"
+  },
+  {
+    "opt": "-level3sep",
+    "type": "bool"
+  },
+  {
+    "opt": "-origpagesizes",
+    "type": "bool"
+  },
+  {
+    "opt": "-eps",
+    "type": "bool"
+  },
+  {
+    "opt": "-form",
+    "type": "bool"
+  },
+  {
+    "opt": "-opi",
+    "type": "bool"
+  },
+  {
+    "opt": "-r",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-binary",
+    "type": "bool"
+  },
+  {
+    "opt": "-noembt1",
+    "type": "bool"
+  },
+  {
+    "opt": "-noembtt",
+    "type": "bool"
+  },
+  {
+    "opt": "-noembcidps",
+    "type": "bool"
+  },
+  {
+    "opt": "-noembcidtt",
+    "type": "bool"
+  },
+  {
+    "opt": "-passfonts",
+    "type": "bool"
+  },
+  {
+    "opt": "-aaRaster",
+    "type": "choice",
+    "choices": ["yes", "no"],
+    "connector": " "
+  },
+  {
+    "opt": "-rasterize",
+    "type": "choice",
+    "choices": ["always", "never", "whenneeded"],
+    "connector": " "
+  },
+  {
+    "opt": "-processcolorformat",
+    "type": "choice",
+    "choices": ["MONO8", "RGB8", "CMYK8"],
+    "connector": " "
+  },
+  {
+    "opt": "-optimizecolorspace",
+    "type": "bool"
+  },
+  {
+    "opt": "-passlevel1customcolor",
+    "type": "bool"
+  },
+  {
+    "opt": "-preload",
+    "type": "bool"
+  },
+  {
+    "opt": "-paper",
+    "type": "choice",
+    "choices": ["letter", "legal", "A4", "A3", "match"],
+    "connector": " "
+  },
+  {
+    "opt": "-paperw",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-paperh",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-nocrop",
+    "type": "bool"
+  },
+  {
+    "opt": "-expand",
+    "type": "bool"
+  },
+  {
+    "opt": "-noshrink",
+    "type": "bool"
+  },
+  {
+    "opt": "-nocenter",
+    "type": "bool"
+  },
+  {
+    "opt": "-duplex",
+    "type": "bool"
+  },
+  {
+    "opt": "-overprint",
+    "type": "bool"
+  },
+  {
+    "opt": "-q",
+    "type": "bool"
+  }
+],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

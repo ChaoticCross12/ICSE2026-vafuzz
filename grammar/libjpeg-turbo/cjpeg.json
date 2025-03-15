@@ -1,0 +1,116 @@
+ {
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-quality",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-grayscale",
+            "type": "bool"
+        },
+        {
+            "opt": "-rgb",
+            "type": "bool"
+        },
+        {
+            "opt": "-optimize",
+            "type": "bool"
+        },
+        {
+            "opt": "-progressive",
+            "type": "bool"
+        },
+        {
+            "opt": "-targa",
+            "type": "bool"
+        },
+        {
+            "opt": "-precision 8",
+            "type": "bool"
+        },
+        {
+            "opt": "-precision 12",
+            "type": "bool"
+        },
+        {
+            "opt": "-precision 16",
+            "type": "bool"
+        },
+        {
+            "opt": "-arithmetic",
+            "type": "bool"
+        },
+        {
+            "opt": "-dct",
+            "type": "choice",
+            "choices": [
+                "int",
+                "fast",
+                "float"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-restart",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-smooth",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-maxmemory",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-memdst",
+            "type": "bool"
+        },
+        {
+            "opt": "-report",
+            "type": "bool"
+        },
+        {
+            "opt": "-strict",
+            "type": "bool"
+        },
+        {
+            "opt": "-verbose",
+            "type": "bool"
+        },
+        {
+            "opt": "-debug",
+            "type": "bool"
+        },
+        {
+            "opt": "-baseline",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

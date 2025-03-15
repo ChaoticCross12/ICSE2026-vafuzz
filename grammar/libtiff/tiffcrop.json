@@ -1,0 +1,281 @@
+{
+    "cmdline": "$inopts $INPUTFILE $INPUTFILE out.tif",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-h",
+            "type": "bool"
+        },
+        {
+            "opt": "-v",
+            "type": "bool"
+        },
+        {
+            "opt": "-a",
+            "type": "bool"
+        },
+        {
+            "opt": "-B",
+            "type": "bool"
+        },
+        {
+            "opt": "-L",
+            "type": "bool"
+        },
+        {
+            "opt": "-M",
+            "type": "bool"
+        },
+        {
+            "opt": "-C",
+            "type": "bool"
+        },
+        {
+            "opt": "-d",
+            "type": "intnum",
+            "range": [
+                1,
+                1000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-p",
+            "type": "choice",
+            "choices": [
+                "contig",
+                "separate"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        },
+        {
+            "opt": "-t",
+            "type": "bool"
+        },
+        {
+            "opt": "-i",
+            "type": "bool"
+        },
+        {
+            "opt": "-k",
+            "type": "intnum",
+            "range": [
+                0,
+                1024
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-r",
+            "type": "intnum",
+            "range": [
+                1,
+                1000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-w",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-l",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-f",
+            "type": "choice",
+            "choices": [
+                "lsb2msb",
+                "msb2lsb"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-c",
+            "type": "choice",
+            "choices": [
+                "lzw",
+                "zip",
+                "jpeg",
+                "jpeg:raw",
+                "jpeg:rgb",
+                "packbits",
+                "g3",
+                "g3:1d",
+                "g3:2d",
+                "g3:fill",
+                "none",
+                "g4"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-N",
+            "type": "choice",
+            "choices": [
+                "odd",
+                "even",
+                "last"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-E",
+            "type": "choice",
+            "choices": [
+                "t",
+                "l",
+                "r",
+                "b"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-U",
+            "type": "choice",
+            "choices": [
+                "in",
+                "cm",
+                "px"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-X",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-Y",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-e",
+            "type": "choice",
+            "choices": [
+                "c",
+                "d",
+                "i",
+                "m",
+                "s"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-H",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-V",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-J",
+            "type": "intnum",
+            "range": [
+                0,
+                1000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-K",
+            "type": "intnum",
+            "range": [
+                0,
+                1000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-O",
+            "type": "choice",
+            "choices": [
+                "portrait",
+                "landscape",
+                "auto"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-P",
+            "type": "choice",
+            "choices": [
+                "letter",
+                "legal",
+                "tabloid"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-F",
+            "type": "choice",
+            "choices": [
+                "hor",
+                "vert",
+                "both"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-R",
+            "type": "choice",
+            "choices": [
+                "90",
+                "180",
+                "270"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-I",
+            "type": "choice",
+            "choices": [
+                "black",
+                "white",
+                "data",
+                "both"
+            ],
+            "connector": " "
+        }
+    ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 8
+}

@@ -1,0 +1,99 @@
+{
+    "cmdline": "$inopts $INPUTFILE out.tif",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+    {
+      "opt": "-a",
+      "type": "bool"
+    },
+    {
+      "opt": "-o",
+      "type": "intnum",
+      "range": [0, 100],
+      "connector": " "
+    },
+    {
+      "opt": "-p",
+      "type": "choice",
+      "choices": ["contig", "separate"],
+      "connector": " "
+    },
+    {
+      "opt": "-s",
+      "type": "bool"
+    },
+    {
+      "opt": "-t",
+      "type": "bool"
+    },
+    {
+      "opt": "-x",
+      "type": "bool"
+    },
+    {
+      "opt": "-8",
+      "type": "bool"
+    },
+    {
+      "opt": "-B",
+      "type": "bool"
+    },
+    {
+      "opt": "-L",
+      "type": "bool"
+    },
+    {
+      "opt": "-M",
+      "type": "bool"
+    },
+    {
+      "opt": "-C",
+      "type": "bool"
+    },
+    {
+      "opt": "-i",
+      "type": "bool"
+    },
+    {
+      "opt": "-m",
+      "type": "intnum",
+      "range": [0, 100],
+      "connector": " "
+    },
+    {
+      "opt": "-r",
+      "type": "intnum",
+      "range": [1, 100],
+      "connector": " "
+    },
+    {
+      "opt": "-w",
+      "type": "intnum",
+      "range": [1, 100],
+      "connector": " "
+    },
+    {
+      "opt": "-l",
+      "type": "intnum",
+      "range": [1, 100],
+      "connector": " "
+    },
+    {
+      "opt": "-f",
+      "type": "choice",
+      "choices": ["lsb2msb", "msb2lsb"],
+      "connector": " "
+    },
+    {
+      "opt": "-c",
+      "type": "choice",
+      "choices": ["lzw","zip","lzma","jpeg","packbits", "g3", "g4", "sgilog", "none"],
+      "connector": " "
+    }
+  ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 3
+}

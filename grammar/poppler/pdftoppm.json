@@ -1,0 +1,136 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 3,
+    "options": [
+  {
+    "opt": "-f",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-l",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-r",
+    "type": "realnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-rx",
+    "type": "realnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-ry",
+    "type": "realnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-scale-to",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-scale-to-x",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-scale-to-y",
+    "type": "intnum",
+    "range": [1, 2147483647],
+    "connector": " "
+  },
+  {
+    "opt": "-x",
+    "type": "intnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-y",
+    "type": "intnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-W",
+    "type": "intnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-H",
+    "type": "intnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-sz",
+    "type": "intnum",
+    "range": [
+        1,
+        2147483647
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-freetype",
+    "type": "choice",
+    "choices": ["yes", "no"],
+    "connector": " "
+  },
+  {
+    "opt": "-thinlinemode",
+    "type": "choice",
+    "choices": ["none", "solid", "shape"],
+    "connector": " "
+  },
+  {
+    "opt": "-aa",
+    "type": "choice",
+    "choices": ["yes", "no"],
+    "connector": " "
+  },
+  {
+    "opt": "-aaVector",
+    "type": "choice",
+    "choices": ["yes", "no"],
+    "connector": " "
+  }
+],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

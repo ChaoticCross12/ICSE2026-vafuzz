@@ -1,0 +1,128 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 3,
+    "options": [
+  {
+    "opt": "-f",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-l",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-r",
+    "type": "fpnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-x",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-y",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-W",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-H",
+    "type": "intnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-layout",
+    "type": "bool"
+  },
+  {
+    "opt": "-fixed",
+    "type": "fpnum",
+    "range": [
+        1,
+        100
+    ],
+    "connector": " "
+  },
+  {
+    "opt": "-raw",
+    "type": "bool"
+  },
+  {
+    "opt": "-nodiag",
+    "type": "bool"
+  },
+  {
+    "opt": "-htmlmeta",
+    "type": "bool"
+  },
+  {
+    "opt": "-listenc",
+    "type": "bool"
+  },
+  {
+    "opt": "-eol",
+    "type": "choice",
+    "choices": ["unix", "dos", "mac"],
+    "connector": " "
+  },
+  {
+    "opt": "-nopgbrk",
+    "type": "bool"
+  },
+  {
+    "opt": "-bbox",
+    "type": "bool"
+  },
+  {
+    "opt": "-bbox-layout",
+    "type": "bool"
+  },
+  {
+    "opt": "-cropbox",
+    "type": "bool"
+  },
+  {
+    "opt": "-q",
+    "type": "bool"
+  }
+],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

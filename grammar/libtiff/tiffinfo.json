@@ -1,0 +1,83 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-D",
+            "type": "bool"
+        },
+        {
+            "opt": "-i",
+            "type": "bool"
+        },
+        {
+            "opt": "-c",
+            "type": "bool"
+        },
+        {
+            "opt": "-d",
+            "type": "bool"
+        },
+        {
+            "opt": "-f",
+            "type": "choice",
+            "choices": [
+                "lsb2msb",
+                "msb2lsb"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-j",
+            "type": "bool"
+        },
+        {
+            "opt": "-o",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-r",
+            "type": "bool"
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        },
+        {
+            "opt": "-w",
+            "type": "bool"
+        },
+        {
+            "opt": "-z",
+            "type": "bool"
+        },
+        {
+            "opt": "-M",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-#",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        }
+    ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 19
+}

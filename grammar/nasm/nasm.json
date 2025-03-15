@@ -1,0 +1,299 @@
+{
+    "cmdline": "-f elf64 $inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "--keep-all",
+            "type": "bool"
+        },
+        {
+            "opt": "-Xgnu",
+            "type": "bool"
+        },
+        {
+            "opt": "-Xvc",
+            "type": "bool"
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        }, 
+        {
+            "opt": "-M",
+            "type": "bool"
+        },
+        {
+            "opt": "-MG",
+            "type": "bool"
+        },
+        {
+            "opt": "-MP",
+            "type": "bool"
+        },
+        {
+            "opt": "-g",
+            "type": "bool"
+        },
+        {
+            "opt": "-Lb",
+            "type": "bool"
+        },
+        {
+            "opt": "-Ld",
+            "type": "bool"
+        },
+        {
+            "opt": "-Le",
+            "type": "bool"
+        },
+        {
+            "opt": "-Lf",
+            "type": "bool"
+        },
+        {
+            "opt": "-Lm",
+            "type": "bool"
+        },
+        {
+            "opt": "-Lp",
+            "type": "bool"
+        },
+        {
+            "opt": "-Ls",
+            "type": "bool"
+        },
+        {
+            "opt": "-Lw",
+            "type": "bool"
+        },
+        {
+            "opt": "-L+",
+            "type": "bool"
+        },
+        {
+            "opt": "-O0",
+            "type": "bool"
+        },
+        {
+            "opt": "-O1",
+            "type": "bool"
+        },
+        {
+            "opt": "-Ox",
+            "type": "bool"
+        },
+        {
+            "opt": "-Ov",
+            "type": "bool"
+        },
+        {
+            "opt": "-t",
+            "type": "bool"
+        },
+        {
+            "opt": "-E",
+            "type": "bool"
+        },
+        {
+            "opt": "-a",
+            "type": "bool"
+        },
+        {
+            "opt": "--no-line",
+            "type": "bool"
+        },
+        
+        {
+            "opt": "--reproducible",
+            "type": "bool"
+        },
+            {
+                "opt": "-w+x",
+                "type": "bool"
+            },
+            {
+                "opt": "-w-x",
+                "type": "bool"
+            },
+            {
+                "opt": "-w+error",
+                "type": "choice",
+                "choices": [
+                    "all",
+                    "db-empty",
+                    "ea",
+                    "ea-absolute",
+                    "ea-dispsize",
+                    "float",
+                    "float-denorm",
+                    "float-overflow",
+                    "float-toolong",
+                    "float-underflow",
+                    "forward",
+                    "label",
+                    "label-orphan",
+                    "label-redef",
+                    "label-redef-late",
+                    "number-overflow",
+                    "obsolete",
+                    "obsolete-nop",
+                    "obsolete-removed",
+                    "obsolete-valid",
+                    "phase",
+                    "pp",
+                    "pp-else",
+                    "pp-else-elif",
+                    "pp-else-else",
+                    "pp-empty-braces",
+                    "pp-environment",
+                    "pp-macro",
+                    "pp-macro-def",
+                    "pp-macro-def-case-single",
+                    "pp-macro-def-greedy-single",
+                    "pp-macro-def-param-single",
+                    "pp-macro-defaults",
+                    "pp-macro-params",
+                    "pp-macro-params-legacy",
+                    "pp-macro-params-multi",
+                    "pp-macro-params-single",
+                    "pp-macro-redef-multi",
+                    "pp-open",
+                    "pp-open-braces",
+                    "pp-open-brackets",
+                    "pp-open-string",
+                    "pp-rep-negative",
+                    "pp-sel-range",
+                    "pp-trailing",
+                    "pragma",
+                    "pragma-bad",
+                    "pragma-empty",
+                    "pragma-na",
+                    "pragma-unknown",
+                    "prefix",
+                    "prefix-bnd",
+                    "prefix-hle",
+                    "prefix-lock",
+                    "prefix-opsize",
+                    "prefix-seg",
+                    "ptr",
+                    "regsize",
+                    "unknown-warning",
+                    "user",
+                    "warn-stack-empty",
+                    "zeroing",
+                    "zext-reloc",
+                    "other"
+                ],
+                "connector": "="
+            },
+            {
+                "opt": "-w-error",
+                "type": "choice",
+                "choices": [
+                    "all",
+                    "db-empty",
+                    "ea",
+                    "ea-absolute",
+                    "ea-dispsize",
+                    "float",
+                    "float-denorm",
+                    "float-overflow",
+                    "float-toolong",
+                    "float-underflow",
+                    "forward",
+                    "label",
+                    "label-orphan",
+                    "label-redef",
+                    "label-redef-late",
+                    "number-overflow",
+                    "obsolete",
+                    "obsolete-nop",
+                    "obsolete-removed",
+                    "obsolete-valid",
+                    "phase",
+                    "pp",
+                    "pp-else",
+                    "pp-else-elif",
+                    "pp-else-else",
+                    "pp-empty-braces",
+                    "pp-environment",
+                    "pp-macro",
+                    "pp-macro-def",
+                    "pp-macro-def-case-single",
+                    "pp-macro-def-greedy-single",
+                    "pp-macro-def-param-single",
+                    "pp-macro-defaults",
+                    "pp-macro-params",
+                    "pp-macro-params-legacy",
+                    "pp-macro-params-multi",
+                    "pp-macro-params-single",
+                    "pp-macro-redef-multi",
+                    "pp-open",
+                    "pp-open-braces",
+                    "pp-open-brackets",
+                    "pp-open-string",
+                    "pp-rep-negative",
+                    "pp-sel-range",
+                    "pp-trailing",
+                    "pragma",
+                    "pragma-bad",
+                    "pragma-empty",
+                    "pragma-na",
+                    "pragma-unknown",
+                    "prefix",
+                    "prefix-bnd",
+                    "prefix-hle",
+                    "prefix-lock",
+                    "prefix-opsize",
+                    "prefix-seg",
+                    "ptr",
+                    "regsize",
+                    "unknown-warning",
+                    "user",
+                    "warn-stack-empty",
+                    "zeroing",
+                    "zext-reloc",
+                    "other"
+                ],
+                "connector": "="
+            }
+
+    ],
+    "depend": [],
+    "conflict": [
+        [
+            "-w-error",
+            "-w+error"
+        ],
+        [
+            "-w-x",
+            "-w+x"
+        ],
+        [
+            "-O0",
+            "-O1"
+        ],
+        [
+            "-O0",
+            "-Ox"
+        ],
+        [
+            "-O0",
+            "-Ov"
+        ],
+        [
+            "-O1",
+            "-Ox"
+        ],
+        [
+            "-O1",
+            "-Ov"
+        ],
+        [
+            "-Ox",
+            "-Ov"
+        ]
+    ],
+    "maxcombs": 27
+}

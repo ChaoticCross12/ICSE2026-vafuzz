@@ -1,0 +1,45 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-a",
+            "type": "bool"
+        },
+        {
+            "opt": "-u",
+            "type": "bool"
+        },
+        {
+            "opt": "-b",
+            "type": "choice",
+            "choices": [
+                "16",
+                "32",
+                "64"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-e",
+            "type": "intnum",
+            "range": [
+                1,
+                2147483647
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-k",
+            "type": "bool"
+        },
+        {
+            "opt": "-p",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 6
+}

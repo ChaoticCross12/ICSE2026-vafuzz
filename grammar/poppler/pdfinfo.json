@@ -1,0 +1,60 @@
+{
+    "cmdline": "$inopts $INPUTFILE ",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-f",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-l",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-box",
+            "type": "bool"
+        },
+        {
+            "opt": "-meta",
+            "type": "bool"
+        },
+        {
+            "opt": "-js",
+            "type": "bool"
+        },
+        {
+            "opt": "-struct",
+            "type": "bool"
+        },
+        {
+            "opt": "-isodates",
+            "type": "bool"
+        },
+        {
+            "opt": "-rawdates",
+            "type": "bool"
+        },
+        {
+            "opt": "-dests",
+            "type": "bool"
+        },
+        {
+            "opt": "-listenc",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

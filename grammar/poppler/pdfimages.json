@@ -1,0 +1,68 @@
+{
+    "cmdline": "$inopts $INPUTFILE ./output",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-f",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-l",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-png",
+            "type": "bool"
+        },
+        {
+            "opt": "-tiff",
+            "type": "bool"
+        },
+        {
+            "opt": "-j",
+            "type": "bool"
+        },
+        {
+            "opt": "-jp2",
+            "type": "bool"
+        },
+        {
+            "opt": "-jbig2",
+            "type": "bool"
+        },
+        {
+            "opt": "-ccitt",
+            "type": "bool"
+        },
+        {
+            "opt": "-all",
+            "type": "bool"
+        },
+        {
+            "opt": "-list",
+            "type": "bool"
+        },
+        {
+            "opt": "-p",
+            "type": "bool"
+        },
+        {
+            "opt": "-q",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

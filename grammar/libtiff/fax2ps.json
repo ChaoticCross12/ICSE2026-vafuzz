@@ -1,0 +1,74 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-w",
+            "type": "bool"
+        },
+        {
+            "opt": "-l",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-p",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " ",
+            "multiple": true
+        },
+        {
+            "opt": "-x",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-y",
+            "type": "intnum",
+            "range": [
+                1,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-S",
+            "type": "bool"
+        },
+        {
+            "opt": "-W",
+            "type": "realnum",
+            "range": [
+                0,
+                1000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-H",
+            "type": "realnum",
+            "range": [
+                0,
+                1000
+            ],
+            "connector": " "
+        }
+    ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 2
+}

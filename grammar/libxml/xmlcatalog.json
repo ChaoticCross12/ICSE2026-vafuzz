@@ -1,0 +1,47 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 19,
+    "options": [
+            {
+                "opt": "--sgml",
+                "type": "bool"
+            },
+            {
+                "opt": "--shell",
+                "type": "bool"
+            },
+            {
+                "opt": "--create",
+                "type": "bool"
+            },
+            {
+                "opt": "--add",
+                "type": "choice",
+                "choices": [
+                    "type",
+                    "orig",
+                    "replace",
+                    "entry"
+                ],
+                "connector": " "
+            },
+            {
+                "opt": "--noout",
+                "type": "bool"
+            },
+            {
+                "opt": "--no-super-update",
+                "type": "bool"
+            },
+            {
+                "opt": "-v",
+                "type": "bool"
+            }
+    ],
+    "depend": [
+    ],
+    "conflict": [
+    ],
+    "maxcombs": 2
+}

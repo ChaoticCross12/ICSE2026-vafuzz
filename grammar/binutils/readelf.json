@@ -1,0 +1,165 @@
+{
+  "cmdline": "$inopts $INPUTFILE",
+  "connector": "=",
+  "strmax": 3,
+  "options": [
+    {
+      "opt": "-a",
+      "type": "bool"
+    },
+    {
+      "opt": "-h",
+      "type": "bool"
+    },
+    {
+      "opt": "-l",
+      "type": "bool"
+    },
+    {
+      "opt": "--segments",
+      "type": "bool"
+    },
+    {
+      "opt": "-S",
+      "type": "bool"
+    },
+    {
+      "opt": "--sections",
+      "type": "bool"
+    },
+    {
+      "opt": "-g",
+      "type": "bool"
+    },
+    {
+      "opt": "-t",
+      "type": "bool"
+    },
+    {
+      "opt": "-e",
+      "type": "bool"
+    },
+    {
+      "opt": "-s",
+      "type": "bool"
+    },
+    {
+      "opt": "--dyn-syms",
+      "type": "bool"
+    },
+    {
+      "opt": "--lto-syms",
+      "type": "bool"
+    },
+    {
+      "opt": "--sym-base=0",
+      "type": "bool"
+    },
+    {
+      "opt": "--sym-base=8",
+      "type": "bool"
+    },
+    {
+      "opt": "--sym-base=10",
+      "type": "bool"
+    },
+    {
+      "opt": "--sym-base=16",
+      "type": "bool"
+    },
+    {
+      "opt": "--no-demangle",
+      "type": "bool"
+    },
+    {
+      "opt": "--recurse-limit",
+      "type": "bool"
+    },
+    {
+      "opt": "--no-recurse-limit",
+      "type": "bool"
+    },
+    {
+      "opt": "-n",
+      "type": "bool"
+    },
+    {
+      "opt": "-r",
+      "type": "bool"
+    },
+    {
+      "opt": "-u",
+      "type": "bool"
+    },
+    {
+      "opt": "-d",
+      "type": "bool"
+    },
+    {
+      "opt": "-A",
+      "type": "bool"
+    },
+    {
+      "opt": "-c",
+      "type": "bool"
+    },
+    {
+      "opt": "-D",
+      "type": "bool"
+    },
+    {
+      "opt": "-L",
+      "type": "bool"
+    },
+    {
+      "opt": "-z",
+      "type": "bool"
+    },
+    {
+      "opt": "-wk",
+      "type": "bool"
+    },
+    {
+      "opt": "-P",
+      "type": "bool"
+    },
+    {
+      "opt": "-wK",
+      "type": "bool"
+    },
+    {
+      "opt": "-wN",
+      "type": "bool"
+    },
+    {
+      "opt": "--dwarf-depth",
+      "type": "int",
+      "connector": "="
+    },
+    {
+      "opt": "--dwarf-start",
+      "type": "int",
+      "connector": "="
+    },
+    {
+      "opt": "-I",
+      "type": "bool"
+    },
+    {
+      "opt": "-W",
+      "type": "bool"
+    },
+    {
+      "opt": "-T",
+      "type": "bool"
+    }
+  ],
+  "depend": [],
+  "conflict": [
+    [
+      "--recurse-limit",
+      "--no-recurse-limit"
+    ]
+  ],
+  "maxcombs": 3
+}

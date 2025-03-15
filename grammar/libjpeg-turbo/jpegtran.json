@@ -1,0 +1,115 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": " ",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-copy",
+            "type": "choice",
+            "choices": [
+                "none",
+                "comments",
+                "icc",
+                "all"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-optimize",
+            "type": "bool"
+        },
+        {
+            "opt": "-progressive",
+            "type": "bool"
+        },
+        {
+            "opt": "-flip",
+            "type": "choice",
+            "choices": [
+                "horizontal",
+                "vertical"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-grayscale",
+            "type": "bool"
+        },
+        {
+            "opt": "-perfect",
+            "type": "bool"
+        },
+        {
+            "opt": "-rotate",
+            "type": "choice",
+            "choices": [
+                "90",
+                "180",
+                "270"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-transpose",
+            "type": "bool"
+        },
+        {
+            "opt": "-transverse",
+            "type": "bool"
+        },
+        {
+            "opt": "-trim",
+            "type": "bool"
+        },
+        {
+            "opt": "-arithmetic",
+            "type": "bool"
+        },
+        {
+            "opt": "-restart",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-maxmemory",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-maxscans",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-report",
+            "type": "bool"
+        },
+        {
+            "opt": "-strict",
+            "type": "bool"
+        },
+        {
+            "opt": "-verbose",
+            "type": "bool"
+        },
+        {
+            "opt": "-debug",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [],
+    "maxcombs": 3
+}

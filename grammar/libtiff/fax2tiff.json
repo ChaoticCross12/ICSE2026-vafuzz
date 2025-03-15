@@ -1,0 +1,147 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-1",
+            "type": "bool"
+        },
+        {
+            "opt": "-2",
+            "type": "bool"
+        },
+        {
+            "opt": "-3",
+            "type": "bool"
+        },
+        {
+            "opt": "-4",
+            "type": "bool"
+        },
+        {
+            "opt": "-5",
+            "type": "bool"
+        },
+        {
+            "opt": "-6",
+            "type": "bool"
+        },
+        {
+            "opt": "-7",
+            "type": "bool"
+        },
+        {
+            "opt": "-8",
+            "type": "bool"
+        },
+        {
+            "opt": "-U",
+            "type": "bool"
+        },
+        
+        {
+            "opt": "-P",
+            "type": "bool"
+        },
+        {
+            "opt": "-A",
+            "type": "bool"
+        },
+        {
+            "opt": "-M",
+            "type": "bool"
+        },
+        {
+            "opt": "-L",
+            "type": "bool"
+        },
+        {
+            "opt": "-B",
+            "type": "bool"
+        },
+        {
+            "opt": "-b",
+            "type": "bool"
+        },
+        {
+            "opt": "-W",
+            "type": "bool"
+        },
+        {
+            "opt": "-w",
+            "type": "bool"
+        },
+        {
+            "opt": "-R",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-X",
+            "type": "intnum",
+            "range": [
+                1,
+                10000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-u",
+            "type": "bool"
+        },
+        {
+            "opt": "-p",
+            "type": "bool"
+        },
+        {
+            "opt": "-a",
+            "type": "bool"
+        },
+        {
+            "opt": "-c",
+            "type": "bool"
+        },
+        {
+            "opt": "-f",
+            "type": "bool"
+        },
+        {
+            "opt": "-m",
+            "type": "bool"
+        },
+        {
+            "opt": "-l",
+            "type": "bool"
+        },
+        {
+            "opt": "-r",
+            "type": "intnum",
+            "range": [
+                1,
+                100000
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        },
+        {
+            "opt": "-v",
+            "type": "bool"
+        },
+        {
+            "opt": "-z",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 2
+}

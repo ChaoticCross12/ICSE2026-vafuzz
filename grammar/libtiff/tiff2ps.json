@@ -1,0 +1,190 @@
+{
+    "cmdline": "$inopts $INPUTFILE",
+    "connector": "=",
+    "strmax": 3,
+    "options": [
+        {
+            "opt": "-1",
+            "type": "bool"
+        },
+        {
+            "opt": "-2",
+            "type": "bool"
+        },
+        {
+            "opt": "-3",
+            "type": "bool"
+        },
+        {
+            "opt": "-8",
+            "type": "bool"
+        },
+        {
+            "opt": "-a",
+            "type": "bool"
+        },
+        {
+            "opt": "-b",
+            "type": "realnum",
+            "range": [
+                0,
+                20
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-c",
+            "type": "bool"
+        },
+        {
+            "opt": "-d",
+            "type": "intnum",
+            "range": [
+                0,
+                10
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-D",
+            "type": "bool"
+        },
+        {
+            "opt": "-e",
+            "type": "bool"
+        },
+        {
+            "opt": "-h",
+            "type": "realnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-w",
+            "type": "realnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-H",
+            "type": "realnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-W",
+            "type": "realnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-L",
+            "type": "realnum",
+            "range": [
+                0,
+                10
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-i",
+            "type": "intnum",
+            "range": [
+                0,
+                9
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-l",
+            "type": "realnum",
+            "range": [
+                0,
+                20
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-m",
+            "type": "bool"
+        },
+        {
+            "opt": "-M",
+            "type": "intnum",
+            "range": [
+                0,
+                16384
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-o",
+            "type": "intnum",
+            "range": [
+                0,
+                100
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-p",
+            "type": "bool"
+        },
+        {
+            "opt": "-P",
+            "type": "choice",
+            "choices": [
+                "L",
+                "P"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-r",
+            "type": "choice",
+            "choices": [
+                "90",
+                "180",
+                "270",
+                "auto"
+            ],
+            "connector": " "
+        },
+        {
+            "opt": "-s",
+            "type": "bool"
+        },
+        {
+            "opt": "-T",
+            "type": "bool"
+        },
+        {
+            "opt": "-x",
+            "type": "bool"
+        },
+        {
+            "opt": "-y",
+            "type": "bool"
+        },
+        {
+            "opt": "-z",
+            "type": "bool"
+        }
+    ],
+    "depend": [],
+    "conflict": [
+    ],
+    "maxcombs": 3
+}
