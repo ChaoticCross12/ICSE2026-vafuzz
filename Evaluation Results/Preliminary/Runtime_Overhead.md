@@ -4,6 +4,7 @@ Here we have listed the overall runtime.
 1. The numbers represent **minutes** spent throughout 24 hours.
 2. Each cell is the average across 5 trials spanning 24 hours.
 3. We rounded the data to the 2th decimal.
+4. These times were counted towards the 24 hour time out, ensuring fairness (24 hour time budget) across all baselines.
 
 **Key Observation:** The runtime overhead thus far, has been relatively low.
 
