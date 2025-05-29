@@ -4,6 +4,7 @@ Mutator Analysis: [link](../Mutator_Analysis.md)
 
 ## djpeg
 ==================================================
+
 Total Conditions Analyzed: 120
 Total Bits Discovered: 2899
 
