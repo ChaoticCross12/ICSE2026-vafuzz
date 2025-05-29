@@ -1,3 +1,5 @@
+**Note**: We randomly selected 1 out of the 5 trials to conduct our preliminary analysis. 
+
 **djpeg**
 
 | Mutator               | New Bits Discovered | Percentage Breakdown |
