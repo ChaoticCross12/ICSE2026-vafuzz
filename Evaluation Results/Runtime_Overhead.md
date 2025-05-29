@@ -1,8 +1,11 @@
 Here we have listed the overall runtime.
-Important notes:
+
+**Important notes:**
 1. The numbers represent **minutes** spent throughout 24 hours.
 2. Each cell is the average across 5 trials spanning 24 hours.
 3. We rounded the data to the 2th decimal.
+
+**Key Observation:** The runtime overhead thus far, has been relatively low.
 
 | Target\Component | Variability-Aware Presence Condition Analysis | Variability-Aware Data Seed Analysis |Presence Condition Selection and Mutation | Overall |
 |-------|-------|-------|-------|-------|
