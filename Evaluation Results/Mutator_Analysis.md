@@ -24,3 +24,12 @@
 | Mutator 3 (Inclusive) | 525                 | 10.5%                 |
 | Mutator 4 (Havoc)     | 4035                | 80.4%                 |
 | **Total**             | **5020**            | **100%**              |
+
+**readelf**
+
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 (Exhaustive)| 937                 | 25.5%                 |
+| Mutator 3 (Inclusive) | 952                 | 25.9%                 |
+| Mutator 4 (Havoc)     | 1782                | 48.5%                 |
+| **Total**             | **3671**            | **100%**              |
