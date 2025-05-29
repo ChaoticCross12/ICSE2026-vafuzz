@@ -1,18 +1,17 @@
 # INSTRUCTIONS
 
 - The first part of this document contains our analysis on coverage gained per mutator.
-- Each table here represents a target program that was run using VAFuzz.
+  - Each table here represents a target program that was run using VAFuzz.
+  - We randomly selected 1 out of the 5 trials to conduct our preliminary analysis.
   
 - The second part consists of coverage gained per presence condition.
-- We provide an analysis for each target program.
-- Each analysis is divided as follows:
-   1. Performance Based Summary
-   2. Structure Based Summary
-   3. Top 5 Performing Conditions
+  - We provide an analysis for each target program.
+  - Each analysis is divided as follows:
+     1. Performance Based Summary
+     2. Structure Based Summary
+     3. Top 5 Performing Conditions
 
 # MUTATOR ANALYSIS SUMMARY
-
-**Note**: We randomly selected 1 out of the 5 trials to conduct our preliminary analysis. 
 
 **djpeg**
 
