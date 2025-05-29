@@ -1,0 +1,489 @@
+PRESENCE CONDITION ANALYSIS
+============================================================
+Total New Bits Discovered by Each Presence Condition:
+
+Condition: (copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)
+  Total Bits: 0
+
+Condition: (copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+  Total Bits: 4
+
+Condition: (optimize)
+  Total Bits: 0
+
+Condition: (arithmetic)
+  Total Bits: 0
+
+Condition: (restart == 3)
+  Total Bits: 0
+
+Condition: (restart == 46)
+  Total Bits: 47
+
+Condition: (restart == 7)
+  Total Bits: 29
+
+Condition: (restart == 75)
+  Total Bits: 0
+
+Condition: (maxscans == 18)
+  Total Bits: 0
+
+Condition: (maxscans == 49)
+  Total Bits: 0
+
+Condition: (rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1)
+  Total Bits: 0
+
+Condition: (rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)
+  Total Bits: 0
+
+Condition: And(Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(Not(arithmetic), perfect, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1), progressive, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0), transpose, strict, restart == 52)
+  Total Bits: 0
+
+Condition: And(Not(restart == 52), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 0
+
+Condition: And(Not(restart == 52), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1))
+  Total Bits: 0
+
+Condition: And(Not(restart == 54), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(Not(restart == 7), rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1))
+  Total Bits: 0
+
+Condition: And(Not(maxmemory == 48), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 39
+
+Condition: And(Not(maxscans == 18), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(Not(maxscans == 94), strict, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 612
+
+Condition: And(Not(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1), restart == 7)
+  Total Bits: 0
+
+Condition: And(Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0), restart == 67)
+  Total Bits: 0
+
+Condition: And(Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2), restart == 7)
+  Total Bits: 16
+
+Condition: And(default_settings_for_all, arithmetic, trim, debug, verbose, restart == 7)
+  Total Bits: 0
+
+Condition: And(default_settings_for_all, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1), restart == 7)
+  Total Bits: 0
+
+Condition: And(default_settings_for_all, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, optimize, restart == 67.289780, verbose, debug, (Not(maxscans == 94)), Not(strict))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, optimize, debug, maxscans == 11, (Not(restart == 67.28978)), Not(verbose), Not(strict))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, maxmemory == 48)
+  Total Bits: 3132
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, Not(perfect), Not(transpose), Not(strict), Not(progressive), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, perfect, transpose, Not(progressive), Not(strict), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(restart == 7)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(restart == 7)), rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(maxmemory == 48)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, Not(strict), restart == 98, arithmetic, verbose, trim, debug)
+  Total Bits: 1
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, maxmemory == 48, (Not(restart == 99)), Not(verbose), Not(trim), Not(arithmetic), Not(debug))
+  Total Bits: 1
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, maxscans == 70, (Not(restart == 7)))
+  Total Bits: 2
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, progressive, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, transpose, Not(strict), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3, restart == 7)
+  Total Bits: 0
+
+Condition: And(optimize, arithmetic, report, verbose, (Not(maxscans == 94)))
+  Total Bits: 0
+
+Condition: And(optimize, progressive, grayscale, perfect, transpose, verbose, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)), (Not(restart == 7)))
+  Total Bits: 2
+
+Condition: And(optimize, progressive, grayscale, perfect, transpose, verbose, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)), (Not(restart == 7)), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 0
+
+Condition: And(optimize, transverse, trim, (Not(maxscans == 94)))
+  Total Bits: 0
+
+Condition: And(arithmetic, restart == 28, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0))
+  Total Bits: 1
+
+Condition: And(arithmetic, verbose, Not(trim), (Not(restart == 98)), Not(debug))
+  Total Bits: 3
+
+Condition: And(arithmetic, verbose, debug, Not(trim), (Not(restart == 7)))
+  Total Bits: 0
+
+Condition: And(arithmetic, trim, (Not(restart == 98)), Not(verbose), Not(debug))
+  Total Bits: 0
+
+Condition: And(restart == 20, trim, Not(verbose))
+  Total Bits: 2
+
+Condition: And(restart == 31, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+  Total Bits: 0
+
+Condition: And(restart == 34, maxscans == 86, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 6
+
+Condition: And(restart == 39, verbose, Not(debug))
+  Total Bits: 6
+
+Condition: And(restart == 53, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), (Not(maxscans == 70)))
+  Total Bits: 0
+
+Condition: And(restart == 54, (Not(maxscans == 86)), (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+  Total Bits: 3
+
+Condition: And(restart == 55, verbose, Not(arithmetic), Not(trim), Not(debug))
+  Total Bits: 0
+
+Condition: And(restart == 6, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+  Total Bits: 1
+
+Condition: And(restart == 70, trim, Not(arithmetic), Not(verbose), Not(debug))
+  Total Bits: 4
+
+Condition: And(restart == 80, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)))
+  Total Bits: 23
+
+Condition: And(restart == 83, arithmetic, verbose, trim, debug)
+  Total Bits: 0
+
+Condition: And(restart == 98, arithmetic, verbose, trim, debug)
+  Total Bits: 0
+
+Condition: And(maxmemory == 36, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), restart == 99, verbose, trim, arithmetic, debug)
+  Total Bits: 0
+
+Condition: And(maxscans == 86, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)), restart == 7)
+  Total Bits: 0
+
+Condition: And(report, restart == 3, Not(perfect), Not(verbose))
+  Total Bits: 0
+
+Condition: And(report, maxscans == 94)
+  Total Bits: 0
+
+Condition: And(strict, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+  Total Bits: 1
+
+Condition: And(strict, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)), restart == 52)
+  Total Bits: 0
+
+Condition: And(strict, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 1
+
+Condition: And(verbose, debug, (Not(restart == 7)))
+  Total Bits: 0
+
+Condition: And(verbose, debug, Not(perfect), (Not(restart == 67)), Not(report))
+  Total Bits: 0
+
+Condition: And(progressive, restart == 7)
+  Total Bits: 108
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, (Not(maxscans == 94)))
+  Total Bits: 3
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, progressive, Not(perfect), Not(transpose), Not(strict), (Not(restart == 52)))
+  Total Bits: 4
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+  Total Bits: 3
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_2, perfect, transpose, strict, progressive, (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, maxscans == 94)
+  Total Bits: 23
+
+Condition: And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, restart == 7)
+  Total Bits: 1
+
+Condition: And(grayscale, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+  Total Bits: 0
+
+Condition: And(grayscale, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(grayscale, verbose, debug, Not(perfect), (Not(maxscans == 94)))
+  Total Bits: 0
+
+Condition: And(grayscale, debug, maxscans == 14, Not(verbose), Not(perfect), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(perfect, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), Not(progressive), (Not(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0)), Not(transpose), Not(strict), (Not(restart == 52)))
+  Total Bits: 0
+
+Condition: And(perfect, restart == 67, Not(report), Not(verbose))
+  Total Bits: 1
+
+Condition: And(perfect, maxscans == 94)
+  Total Bits: 0
+
+Condition: And(perfect, report, verbose, (Not(restart == 28)))
+  Total Bits: 0
+
+Condition: And(perfect, verbose, debug, maxscans == 10, Not(grayscale), (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+  Total Bits: 1
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, (Not(restart == 7)), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0), optimize, transverse, maxscans == 94, strict)
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, Not(perfect), (Not(restart == 67)), Not(report), Not(verbose))
+  Total Bits: 1
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, transpose)
+  Total Bits: 2
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, (Not(restart == 7)))
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, (Not(restart == 7)))
+  Total Bits: 2
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, restart == 7)
+  Total Bits: 0
+
+Condition: And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, transverse)
+  Total Bits: 0
+
+Condition: And(transpose, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+  Total Bits: 2
+
+Condition: And(transverse, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+  Total Bits: 5
+
+Condition: And(transverse, (Not(restart == 39)), Not(verbose), Not(debug))
+  Total Bits: 0
+
+Condition: And(transverse, Not(perfect), (Not(restart == 67)), Not(report), Not(verbose))
+  Total Bits: 0
+
+Condition: And(transverse, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, arithmetic, verbose, trim, restart == 98, debug)
+  Total Bits: 0
+
+Condition: And(trim, Not(arithmetic), (Not(restart == 98)), Not(verbose), Not(debug))
+  Total Bits: 0
+
+Condition: And(trim, verbose, (Not(restart == 7)))
+  Total Bits: 0
+
+Condition: Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)
+  Total Bits: 0
+
+Condition: Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)
+  Total Bits: 0
+
+Condition: Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+  Total Bits: 4
+
+Condition: Not(restart == 28)
+  Total Bits: 1
+
+Condition: Not(restart == 3)
+  Total Bits: 0
+
+Condition: Not(restart == 52)
+  Total Bits: 0
+
+Condition: Not(restart == 67)
+  Total Bits: 2
+
+Condition: Not(restart == 7)
+  Total Bits: 139
+
+Condition: Not(restart == 70)
+  Total Bits: 0
+
+Condition: Not(maxscans == 10)
+  Total Bits: 0
+
+Condition: Not(maxscans == 94)
+  Total Bits: 1176
+
+Condition: Not(debug)
+  Total Bits: 0
+
+Condition: Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)
+  Total Bits: 14
+
+Condition: default_settings_for_all
+  Total Bits: 17
+
+Condition: restart == 7
+  Total Bits: 0
+
+------------------------------------------------------------
+Total Bits Across All Conditions: 5445
+
+Percentage Breakdown:
+0.0% - (copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)
+0.1% - (copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+0.0% - (optimize)
+0.0% - (arithmetic)
+0.0% - (restart == 3)
+0.9% - (restart == 46)
+0.5% - (restart == 7)
+0.0% - (restart == 75)
+0.0% - (maxscans == 18)
+0.0% - (maxscans == 49)
+0.0% - (rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1)
+0.0% - (rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)
+0.0% - And(Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.0% - And(Not(arithmetic), perfect, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1), progressive, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0), transpose, strict, restart == 52)
+0.0% - And(Not(restart == 52), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(Not(restart == 52), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1))
+0.0% - And(Not(restart == 54), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.0% - And(Not(restart == 7), rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1))
+0.7% - And(Not(maxmemory == 48), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(Not(maxscans == 18), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+11.2% - And(Not(maxscans == 94), strict, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(Not(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1), restart == 7)
+0.0% - And(Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0), restart == 67)
+0.3% - And(Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2), restart == 7)
+0.0% - And(default_settings_for_all, arithmetic, trim, debug, verbose, restart == 7)
+0.0% - And(default_settings_for_all, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1), restart == 7)
+0.0% - And(default_settings_for_all, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, optimize, restart == 67.289780, verbose, debug, (Not(maxscans == 94)), Not(strict))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, optimize, debug, maxscans == 11, (Not(restart == 67.28978)), Not(verbose), Not(strict))
+57.5% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, maxmemory == 48)
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, Not(perfect), Not(transpose), Not(strict), Not(progressive), (Not(restart == 52)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, perfect, transpose, Not(progressive), Not(strict), (Not(restart == 52)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(restart == 7)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(restart == 7)), rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, (Not(maxmemory == 48)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, Not(strict), restart == 98, arithmetic, verbose, trim, debug)
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, maxmemory == 48, (Not(restart == 99)), Not(verbose), Not(trim), Not(arithmetic), Not(debug))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, maxscans == 70, (Not(restart == 7)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1, progressive, flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, transpose, Not(strict), (Not(restart == 52)))
+0.0% - And(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3, restart == 7)
+0.0% - And(optimize, arithmetic, report, verbose, (Not(maxscans == 94)))
+0.0% - And(optimize, progressive, grayscale, perfect, transpose, verbose, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)), (Not(restart == 7)))
+0.0% - And(optimize, progressive, grayscale, perfect, transpose, verbose, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)), (Not(restart == 7)), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(optimize, transverse, trim, (Not(maxscans == 94)))
+0.0% - And(arithmetic, restart == 28, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0))
+0.1% - And(arithmetic, verbose, Not(trim), (Not(restart == 98)), Not(debug))
+0.0% - And(arithmetic, verbose, debug, Not(trim), (Not(restart == 7)))
+0.0% - And(arithmetic, trim, (Not(restart == 98)), Not(verbose), Not(debug))
+0.0% - And(restart == 20, trim, Not(verbose))
+0.0% - And(restart == 31, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+0.1% - And(restart == 34, maxscans == 86, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.1% - And(restart == 39, verbose, Not(debug))
+0.0% - And(restart == 53, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), (Not(maxscans == 70)))
+0.1% - And(restart == 54, (Not(maxscans == 86)), (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+0.0% - And(restart == 55, verbose, Not(arithmetic), Not(trim), Not(debug))
+0.0% - And(restart == 6, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+0.1% - And(restart == 70, trim, Not(arithmetic), Not(verbose), Not(debug))
+0.4% - And(restart == 80, (Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)))
+0.0% - And(restart == 83, arithmetic, verbose, trim, debug)
+0.0% - And(restart == 98, arithmetic, verbose, trim, debug)
+0.0% - And(maxmemory == 36, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), restart == 99, verbose, trim, arithmetic, debug)
+0.0% - And(maxscans == 86, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)), restart == 7)
+0.0% - And(report, restart == 3, Not(perfect), Not(verbose))
+0.0% - And(report, maxscans == 94)
+0.0% - And(strict, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+0.0% - And(strict, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)), restart == 52)
+0.0% - And(strict, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(verbose, debug, (Not(restart == 7)))
+0.0% - And(verbose, debug, Not(perfect), (Not(restart == 67)), Not(report))
+2.0% - And(progressive, restart == 7)
+0.1% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, (Not(maxscans == 94)))
+0.1% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, progressive, Not(perfect), Not(transpose), Not(strict), (Not(restart == 52)))
+0.1% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, perfect, progressive, Not(transpose), Not(strict), (Not(restart == 52)))
+0.0% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_2, perfect, transpose, strict, progressive, (Not(restart == 52)))
+0.4% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0, maxscans == 94)
+0.0% - And(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_1, restart == 7)
+0.0% - And(grayscale, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+0.0% - And(grayscale, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.0% - And(grayscale, verbose, debug, Not(perfect), (Not(maxscans == 94)))
+0.0% - And(grayscale, debug, maxscans == 14, Not(verbose), Not(perfect), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.0% - And(perfect, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)), Not(progressive), (Not(flip == options['vafuzz_opt_3'].z3_choices.vafuzz_opt_3_choice_0)), Not(transpose), Not(strict), (Not(restart == 52)))
+0.0% - And(perfect, restart == 67, Not(report), Not(verbose))
+0.0% - And(perfect, maxscans == 94)
+0.0% - And(perfect, report, verbose, (Not(restart == 28)))
+0.0% - And(perfect, verbose, debug, maxscans == 10, Not(grayscale), (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, (Not(restart == 7)), copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0), optimize, transverse, maxscans == 94, strict)
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, Not(perfect), (Not(restart == 67)), Not(report), Not(verbose))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_0, transpose)
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, (Not(restart == 7)))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_1, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, (Not(restart == 7)))
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, restart == 7)
+0.0% - And(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2, transverse)
+0.0% - And(transpose, rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2))
+0.1% - And(transverse, (Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)))
+0.0% - And(transverse, (Not(restart == 39)), Not(verbose), Not(debug))
+0.0% - And(transverse, Not(perfect), (Not(restart == 67)), Not(report), Not(verbose))
+0.0% - And(transverse, copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0, arithmetic, verbose, trim, restart == 98, debug)
+0.0% - And(trim, Not(arithmetic), (Not(restart == 98)), Not(verbose), Not(debug))
+0.0% - And(trim, verbose, (Not(restart == 7)))
+0.0% - Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_0)
+0.0% - Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_1)
+0.1% - Not(copy == options['vafuzz_opt_0'].z3_choices.vafuzz_opt_0_choice_3)
+0.0% - Not(restart == 28)
+0.0% - Not(restart == 3)
+0.0% - Not(restart == 52)
+0.0% - Not(restart == 67)
+2.6% - Not(restart == 7)
+0.0% - Not(restart == 70)
+0.0% - Not(maxscans == 10)
+21.6% - Not(maxscans == 94)
+0.0% - Not(debug)
+0.3% - Not(rotate == options['vafuzz_opt_6'].z3_choices.vafuzz_opt_6_choice_2)
+0.3% - default_settings_for_all
+0.0% - restart == 7
+
