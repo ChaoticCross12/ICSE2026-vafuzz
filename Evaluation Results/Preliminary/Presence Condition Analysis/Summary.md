@@ -242,3 +242,85 @@ Total Bits Discovered: 5020
 
 5. (options['vafuzz_opt_22'].z3_var)
    101 bits (2.0%)
+
+   =====================================================
+   =====================================================
+
+## readelf
+
+==================================================
+
+Total Conditions Analyzed: 183
+Total Bits Discovered: 3671
+
+### PERFORMANCE-BASED SUMMARY
+=============================
+
+1. High Performance (≥50 bits)
+   Total Bits: 2128 (58.0%)
+   Conditions: 18
+   - And(options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_0'].z3_var) (588 bits)
+   - And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_24'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_17'].z3_var, options['vafuzz_opt_4'].z3_var, Not(options['vafuzz_opt_6'].z3_var), Not(options['vafuzz_opt_7'].z3_var)) (173 bits)
+   - And(options['vafuzz_opt_8'].z3_var, options['vafuzz_opt_9'].z3_var, options['vafuzz_opt_11'].z3_var, options['vafuzz_opt_13'].z3_var, Not(options['vafuzz_opt_1'].z3_var), Not(options['vafuzz_opt_5'].z3_var), Not(options['vafuzz_opt_0'].z3_var), Not(options['vafuzz_opt_29'].z3_var), Not(options['vafuzz_opt_24'].z3_var), Not(options['vafuzz_opt_3'].z3_var), Not(options['vafuzz_opt_2'].z3_var), Not(options['vafuzz_opt_27'].z3_var), Not(options['vafuzz_opt_12'].z3_var), Not(options['vafuzz_opt_7'].z3_var), Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_4'].z3_var), Not(options['vafuzz_opt_23'].z3_var), Not(options['vafuzz_opt_18'].z3_var), Not(options['vafuzz_opt_6'].z3_var)) (138 bits)
+   ... and 15 more
+
+2. Low Performance (<10 bits)
+   Total Bits: 257 (7.0%)
+   Conditions: 108
+   - And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_11'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_29'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_7'].z3_var, options['vafuzz_opt_17'].z3_var, options['vafuzz_opt_4'].z3_var, options['vafuzz_opt_6'].z3_var, options['vafuzz_opt_36'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_13'].z3_var, options['vafuzz_opt_23'].z3_var, Not(options['vafuzz_opt_27'].z3_var), Not(options['vafuzz_opt_10'].z3_var), Not(options['vafuzz_opt_24'].z3_var)) (9 bits)
+   - Not(options['vafuzz_opt_11'].z3_var) (9 bits)
+   - And(options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_16'].z3_var, options['vafuzz_opt_17'].z3_var, options['vafuzz_opt_20'].z3_var, options['vafuzz_opt_23'].z3_var, options['vafuzz_opt_24'].z3_var, options['vafuzz_opt_34'].z3_var, options['vafuzz_opt_35'].z3_var, options['vafuzz_opt_36'].z3_var, Not(options['vafuzz_opt_13'].z3_var), Not(options['vafuzz_opt_26'].z3_var), Not(options['vafuzz_opt_6'].z3_var), Not(options['vafuzz_opt_5'].z3_var), Not(options['vafuzz_opt_11'].z3_var)) (8 bits)
+   ... and 105 more
+
+3. Medium Performance (10-49 bits)
+   Total Bits: 1286 (35.0%)
+   Conditions: 57
+   - And(options['vafuzz_opt_21'].z3_var, options['vafuzz_opt_34'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_14'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_19'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_13'].z3_var, options['vafuzz_opt_6'].z3_var, Not(options['vafuzz_opt_10'].z3_var), Not(options['vafuzz_opt_22'].z3_var)) (49 bits)
+   - And(options['vafuzz_opt_15'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_34'].z3_var, options['vafuzz_opt_36'].z3_var, Not(options['vafuzz_opt_1'].z3_var), Not(options['vafuzz_opt_4'].z3_var), Not(options['vafuzz_opt_5'].z3_var), Not(options['vafuzz_opt_6'].z3_var), Not(options['vafuzz_opt_10'].z3_var), Not(options['vafuzz_opt_11'].z3_var), Not(options['vafuzz_opt_13'].z3_var), Not(options['vafuzz_opt_14'].z3_var), Not(options['vafuzz_opt_16'].z3_var), Not(options['vafuzz_opt_21'].z3_var), Not(options['vafuzz_opt_22'].z3_var), Not(options['vafuzz_opt_0'].z3_var), Not(options['vafuzz_opt_29'].z3_var), Not(options['vafuzz_opt_24'].z3_var), Not(options['vafuzz_opt_3'].z3_var), Not(options['vafuzz_opt_2'].z3_var), Not(options['vafuzz_opt_12'].z3_var), Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_23'].z3_var), Not(options['vafuzz_opt_7'].z3_var)) (46 bits)
+   - And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_6'].z3_var, options['vafuzz_opt_7'].z3_var, options['vafuzz_opt_13'].z3_var, options['vafuzz_opt_16'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_21'].z3_var, options['vafuzz_opt_22'].z3_var, Not(options['vafuzz_opt_20'].z3_var), Not(options['vafuzz_opt_11'].z3_var), Not(options['vafuzz_opt_29'].z3_var), Not(options['vafuzz_opt_19'].z3_var), Not(options['vafuzz_opt_12'].z3_var), Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_4'].z3_var), Not(options['vafuzz_opt_15'].z3_var), Not(options['vafuzz_opt_9'].z3_var), Not(options['vafuzz_opt_0'].z3_var), Not(options['vafuzz_opt_14'].z3_var), Not(options['vafuzz_opt_24'].z3_var), Not(options['vafuzz_opt_27'].z3_var), Not(options['vafuzz_opt_23'].z3_var), Not(options['vafuzz_opt_10'].z3_var), Not(options['vafuzz_opt_8'].z3_var), Not(options['vafuzz_opt_25'].z3_var)) (45 bits)
+   ... and 54 more
+
+### STRUCTURE-BASED SUMMARY
+===========================
+
+1. Conjunction (AND)
+   Total Bits: 3128 (85.2%)
+   Conditions: 171
+   - And(options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_0'].z3_var) (588 bits)
+   - And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_24'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_17'].z3_var, options['vafuzz_opt_4'].z3_var, Not(options['vafuzz_opt_6'].z3_var), Not(options['vafuzz_opt_7'].z3_var)) (173 bits)
+   - And(options['vafuzz_opt_8'].z3_var, options['vafuzz_opt_9'].z3_var, options['vafuzz_opt_11'].z3_var, options['vafuzz_opt_13'].z3_var, Not(options['vafuzz_opt_1'].z3_var), Not(options['vafuzz_opt_5'].z3_var), Not(options['vafuzz_opt_0'].z3_var), Not(options['vafuzz_opt_29'].z3_var), Not(options['vafuzz_opt_24'].z3_var), Not(options['vafuzz_opt_3'].z3_var), Not(options['vafuzz_opt_2'].z3_var), Not(options['vafuzz_opt_27'].z3_var), Not(options['vafuzz_opt_12'].z3_var), Not(options['vafuzz_opt_7'].z3_var), Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_4'].z3_var), Not(options['vafuzz_opt_23'].z3_var), Not(options['vafuzz_opt_18'].z3_var), Not(options['vafuzz_opt_6'].z3_var)) (138 bits)
+   ... and 168 more
+
+2. Negated
+   Total Bits: 41 (1.1%)
+   Conditions: 5
+   - Not(options['vafuzz_opt_0'].z3_var) (15 bits)
+   - Not(options['vafuzz_opt_20'].z3_var) (13 bits)
+   - Not(options['vafuzz_opt_11'].z3_var) (9 bits)
+   ... and 2 more
+
+3. Simple Boolean
+   Total Bits: 502 (13.7%)
+   Conditions: 7
+   - (options['vafuzz_opt_3'].z3_var) (131 bits)
+   - (options['vafuzz_opt_0'].z3_var) (103 bits)
+   - (options['vafuzz_opt_34'].z3_var) (91 bits)
+   ... and 4 more
+
+### TOP 5 PERFORMING CONDITIONS
+==============================
+1. And(options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_0'].z3_var)
+   588 bits (16.0%)
+
+2. And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_24'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_18'].z3_var, options['vafuzz_opt_17'].z3_var, options['vafuzz_opt_4'].z3_var, Not(options['vafuzz_opt_6'].z3_var), Not(options['vafuzz_opt_7'].z3_var))
+   173 bits (4.7%)
+
+3. And(options['vafuzz_opt_8'].z3_var, options['vafuzz_opt_9'].z3_var, options['vafuzz_opt_11'].z3_var, options['vafuzz_opt_13'].z3_var, Not(options['vafuzz_opt_1'].z3_var), Not(options['vafuzz_opt_5'].z3_var), Not(options['vafuzz_opt_0'].z3_var), Not(options['vafuzz_opt_29'].z3_var), Not(options['vafuzz_opt_24'].z3_var), Not(options['vafuzz_opt_3'].z3_var), Not(options['vafuzz_opt_2'].z3_var), Not(options['vafuzz_opt_27'].z3_var), Not(options['vafuzz_opt_12'].z3_var), Not(options['vafuzz_opt_7'].z3_var), Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_4'].z3_var), Not(options['vafuzz_opt_23'].z3_var), Not(options['vafuzz_opt_18'].z3_var), Not(options['vafuzz_opt_6'].z3_var))
+   138 bits (3.8%)
+
+4. And(options['vafuzz_opt_1'].z3_var, options['vafuzz_opt_0'].z3_var, options['vafuzz_opt_5'].z3_var, options['vafuzz_opt_29'].z3_var, options['vafuzz_opt_24'].z3_var, options['vafuzz_opt_3'].z3_var, options['vafuzz_opt_2'].z3_var, options['vafuzz_opt_27'].z3_var, options['vafuzz_opt_12'].z3_var, options['vafuzz_opt_7'].z3_var, options['vafuzz_opt_4'].z3_var, options['vafuzz_opt_23'].z3_var, Not(options['vafuzz_opt_17'].z3_var), Not(options['vafuzz_opt_18'].z3_var), Not(options['vafuzz_opt_6'].z3_var))
+   137 bits (3.7%)
+
+5. (options['vafuzz_opt_3'].z3_var)
+   131 bits (3.6%)
+
