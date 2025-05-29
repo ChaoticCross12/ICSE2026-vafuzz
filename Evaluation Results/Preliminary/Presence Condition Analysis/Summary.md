@@ -53,8 +53,6 @@
 
 # PRESENCE CONDITION ANALYSIS SUMMARY
 
-Mutator Analysis: [link](../Mutator_Analysis.md)
-
 ## djpeg
 ==================================================
 
