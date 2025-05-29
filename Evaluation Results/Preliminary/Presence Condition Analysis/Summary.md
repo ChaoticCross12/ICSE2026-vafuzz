@@ -1,3 +1,56 @@
+# INSTRUCTIONS
+
+- The first part of this document contains our analysis on coverage gained per mutator.
+- Each table here represents a target program that was run using VAFuzz.
+  
+- The second part consists of coverage gained per presence condition.
+- We provide an analysis for each target program.
+- Each analysis is divided as follows:
+   1. Performance Based Summary
+   2. Structure Based Summary
+   3. Top 5 Performing Conditions
+
+# MUTATOR ANALYSIS SUMMARY
+
+**Note**: We randomly selected 1 out of the 5 trials to conduct our preliminary analysis. 
+
+**djpeg**
+
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 | 287                 | 9.9%                  |
+| Mutator 2 | 1810                | 62.4%                 |
+| Mutator 3     | 802                 | 27.7%                 |
+| **Total**             | **2899**            | **100%**              |
+
+**jpegtran**
+
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 | 953                 | 17.5%                 |
+| Mutator 2 | 3820                | 70.2%                 |
+| Mutator 3     | 672                 | 12.3%                 |
+| **Total**             | **5445**            | **100%**              |
+
+**xmllint**
+
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 | 460                 | 9.2%                  |
+| Mutator 1  | 525                 | 10.5%                 |
+| Mutator 2      | 4035                | 80.4%                 |
+| **Total**             | **5020**            | **100%**              |
+
+**readelf**
+
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 | 937                 | 25.5%                 |
+| Mutator 2 | 952                 | 25.9%                 |
+| Mutator 3     | 1782                | 48.5%                 |
+| **Total**             | **3671**            | **100%**              |
+
+
 # PRESENCE CONDITION ANALYSIS SUMMARY
 
 Mutator Analysis: [link](../Mutator_Analysis.md)
