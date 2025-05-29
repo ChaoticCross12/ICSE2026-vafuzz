@@ -85,9 +85,11 @@ Total Bits Discovered: 2899
    70 bits (2.4%)
 
 ===================================
+===================================
 
 ## jpegtran
 ==================================================
+
 Total Conditions Analyzed: 120
 Total Bits Discovered: 5445
 
