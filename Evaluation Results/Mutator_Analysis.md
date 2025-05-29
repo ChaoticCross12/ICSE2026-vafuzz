@@ -16,8 +16,11 @@
 | Mutator 4 (Havoc)     | 672                 | 12.3%                 |
 | **Total**             | **5445**            | **100%**              |
 
+**xmllint**
 
-
-
-
-
+| Mutator               | New Bits Discovered | Percentage Breakdown |
+|-----------------------|---------------------|-----------------------|
+| Mutator 1 (Exhaustive)| 460                 | 9.2%                  |
+| Mutator 3 (Inclusive) | 525                 | 10.5%                 |
+| Mutator 4 (Havoc)     | 4035                | 80.4%                 |
+| **Total**             | **5020**            | **100%**              |
