@@ -4,7 +4,7 @@
 | cjpeg      |        20 |        0 |            0 |            0 |           0 |
 | jpegtran   |        18 |        0 |            0 |            0 |           0 |
 | fax2ps     |         8 |        1 |            1 |            1 |           0 |
-| fax2tiff   |        30 |        1 |            0 |            0 |           0 |
+| fax2tiff   |        30 |        0 |            0 |            0 |           0 |
 | tiff2pdf   |        16 |        0 |            0 |            0 |           0 |
 | tiff2ps    |        28 |        0 |            0 |            0 |           0 |
 | tiffcp     |        18 |        0 |            0 |            0 |           0 |
@@ -17,7 +17,7 @@
 | objdump    |        42 |        0 |            0 |            0 |           0 |
 | readelf    |        37 |        0 |            0 |            1 |           0 |
 | size       |         9 |        0 |            0 |            0 |           0 |
-| pdfimages  |        12 |        2 |            0 |            0 |           0 |
+| pdfimages  |        12 |        1 |            0 |            0 |           0 |
 | pdfinfo    |        10 |        1 |            0 |            0 |           0 |
 | pdftohtml  |        18 |        0 |            0 |            0 |           0 |
 | pdftoppm   |        17 |        0 |            1 |            0 |           0 |
@@ -25,4 +25,4 @@
 | pdftotext  |        19 |        0 |            0 |            0 |           0 |
 | xmllint    |        51 |        1 |            1 |            1 |           0 |
 | xmlcatalog |         7 |        0 |            1 |            0 |           0 |
-| TOTAL      |       nan |       14 |            6 |            6 |           3 |
+| TOTAL      |       nan |       12 |            6 |            6 |           3 |
