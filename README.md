@@ -13,6 +13,7 @@ The submitted package is organized in the following structure.
   * `RQ1_Bug_IDs.md`: This file provides the specific bug IDs referenced in our RQ1 analysis, allowing for easy cross-referencing with our results and discussion.
   * `RQ2_Ablation_Study_1.md` and `RQ2_Ablation_Study_2.md`: These files contain the results of our ablation studies for RQ2, where we systematically removed or altered components to assess their impact on performance and bug-finding effectiveness. Specifically Study_1 modified different components of VAFuzz and Study_2 tested the impact of the initial configuration generation approach.
   * `Mutator_Analysis.md`: Here we have an analysis of the different mutators used in our fuzzing experiments, including their effectiveness and contribution to the results.
+  * `Mutator_Analysis_Fig.png`: This figure illustrates our findings in the Mutator_Analysis.md
   * `Runtime Overhead.md`: This file presents measurements and analysis of the runtime overhead introduced by our approach, providing insight into its efficiency.
   * `bugs.png`: Here we have a visual summary (figure) of the common bugs found during our evaluation, as referenced in the paper.
   * `Presence Condition Analysis/`: This directory contains the results of our presence condition analysis, including:
